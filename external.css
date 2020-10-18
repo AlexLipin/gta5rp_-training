@@ -1,0 +1,290 @@
+.aaa{
+
+    background-color: green;
+}
+.cap1 { 
+    width: 100%;
+    height: 800px;
+    border: 2px solid #299bf0;
+    background-image: url(home-bg.png)
+}
+nav.navMain .navMain__elements {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+ul.navMain__links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #299bf0;
+    padding: 20px 15px;
+    width: 50%;
+    border-radius: 50px;
+}
+.casemain__slogan {
+    font: 700 30px Geometria;
+    text-transform: uppercase;
+    color: red;
+}
+a {
+    color:white;
+    text-decoration: none;
+}
+li {
+    list-style-type: none; 
+   }
+p{
+    color: white;
+}
+
+#lvl103 {
+    position: absolute;
+    background-color: #0f7;
+    width: 100%;
+}
+#howtoplay{
+    background: linear-gradient(to left, #fefcea, #f1da36);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #299bf0;
+    padding: 15px 15px;
+    width: 20%;
+    border-radius: 50px;
+
+    display: inline-block;
+}
+
+#playeronline {
+    position: relative; 
+    background-color: red;
+    width: 20%;
+    display: inline-block;
+}
+#learnmore {
+
+    background-color: green;
+    width: 30%;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+#playspinner {
+
+    width: 50px;
+    animation-name: rotation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    -moz-transform: rotate(15deg); /* Для Firefox */
+    -ms-transform: rotate(15deg); /* Для IE */
+    -webkit-transform: rotate(15deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(15deg); /* Для Opera */
+    transform: rotate(15deg);
+}
+@keyframes rotation {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+
+
+
+#playspinner-btn{
+    position: fixed;
+    display: inline-block;
+
+    width: 50px;
+}
+#play-btn{
+    position: relative;
+    top: -15px;
+    left: -35px;
+}
+#play-btn:hover {
+    -moz-transform: rotate(108deg); /* Для Firefox */
+    -ms-transform: rotate(108deg); /* Для IE */
+    -webkit-transform: rotate(108deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(108deg); /* Для Opera */
+    transform: rotate(108deg);
+
+   }
+
+#home-headline {    
+    display: inline-block;
+}
+#back2{
+    width: 100%;
+    background-image: url(playnow-bg.png)
+}
+
+.cap2 {
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+#step1{
+    background-color: #00d0ff;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 15px 15px;
+    width: 30%;
+    border-radius: 50px;
+
+    display: inline-block;
+}
+
+#step2{
+    background-color: #fb00ff;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 15px 15px;
+    width: 30%;
+    border-radius: 50px;
+
+    display: inline-block;
+}
+
+#step3{
+    background-color: #00ff2a;
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 15px 15px;
+    width: 30%;
+    border-radius: 50px;
+
+
+    display: inline-block;
+}
+
+
+
+
+
+
+#playnowcap3{
+    width: 100%;
+    height: 800px;
+    border: 2px solid #299bf0;
+}
+.links{
+
+    background: linear-gradient(to left, #fefcea, #f1da36);
+
+   opacity: 0.9;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #299bf0;
+    padding: 5px 5px;
+    width: 100%;
+    border-radius: 20px;
+
+    display: inline-block;
+
+
+
+}
+.server{
+    width:  384px;
+    margin-top: 20px;
+    margin-left:10px;
+    display: inline-block;
+    color: #eaff00;
+    height: 202px;
+}
+.server-icon{
+    position: relative;
+    top:-10px%;
+    left: 5%;
+
+}
+
+meter {
+    width:250px;
+}
+.table-font{
+    color:white;
+
+
+    clear: left;
+}
+
+.cap3{
+    margin-top:250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
